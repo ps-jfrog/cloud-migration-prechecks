@@ -15,7 +15,7 @@ curl --location "$JF_URL/artifactory/api/search/aql" \
 | jq '.results[] |= (.size = (.size / 1073741824))'
 ```
 
-## Docker repostirories naming conventions
+## Docker repositories naming conventions
 
 > Docker repositories with names that include dots or underscores aren't allowed in JFrog Cloud.
 
